@@ -1,13 +1,25 @@
 <template>
   <div id="app">
-    <img src="./assets/logo.png">
+      <Navs/>
+      <BodyTop/>
+      <BodyBottom/>
     <router-view/>
+  
+  
   </div>
 </template>
 
 <script>
+import Navs from '@/components/Navs'
+import BodyTop from '@/components/BodyTop'
+import BodyBottom from '@/components/BodyBottom'
 export default {
-  name: 'App'
+  name: 'App',
+  components:{
+    Navs:Navs,
+    BodyTop:BodyTop,
+    BodyBottom:BodyBottom
+  }
 }
 </script>
 
