@@ -1,8 +1,9 @@
 <template>
   <div id="app">
       <Navs/>
-      <BodyTop/>
-      <BodyBottom/>
+      
+    <!-- <BodyTop/>
+       <BodyBottom/> -->
     <router-view/>
   
   
@@ -10,12 +11,14 @@
 </template>
 
 <script>
+import Body from '@/components/Body'
 import Navs from '@/components/Navs'
 import BodyTop from '@/components/BodyTop'
 import BodyBottom from '@/components/BodyBottom'
 export default {
   name: 'App',
   components:{
+    Body:Body,
     Navs:Navs,
     BodyTop:BodyTop,
     BodyBottom:BodyBottom
