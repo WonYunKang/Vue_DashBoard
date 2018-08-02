@@ -1,27 +1,27 @@
 <template>
   <div id="app">
-      <Navs/>
-      
-    <!-- <BodyTop/>
-       <BodyBottom/> -->
-    <router-view/>
-  
-  
+  <Navs/>
+  <BodyTop/>
+  <body/>
+  <router-view/> 
   </div>
 </template>
 
 <script>
-import Body from '@/components/Body'
-import Navs from '@/components/Navs'
-import BodyTop from '@/components/BodyTop'
-import BodyBottom from '@/components/BodyBottom'
+import Body from '@/components/Body/Body'
+import Navs from '@/components/Body/Navs'
+import BodyTop from '@/components/Body/BodyTop'
+import BodyBottom from '@/components/Body/BodyBottom'
+
+
 export default {
   name: 'App',
   components:{
     Body:Body,
     Navs:Navs,
     BodyTop:BodyTop,
-    BodyBottom:BodyBottom
+    BodyBottom:BodyBottom,
+  
   }
 }
 </script>
