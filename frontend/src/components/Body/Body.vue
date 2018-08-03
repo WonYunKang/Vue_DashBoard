@@ -39,16 +39,16 @@
 
             </div>
             <div class="positionDiv">
-                <Graph2/> 
+                <Graph1/> 
             </div>
             <div class="positionDiv">
-             <Graph4/>
+              <Graph2/>
             </div>   
             <div class="positionDiv">
                 <Graph3/>
             </div>
             <div class="positionDiv">
-                    <Graph1/> 
+                   <Graph4/> 
             </div>
 
     </div>    
