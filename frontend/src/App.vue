@@ -4,6 +4,7 @@
   <BodyTop/>
   <body/>
   <router-view/> 
+
   </div>
 </template>
 
@@ -14,6 +15,8 @@ import BodyTop from '@/components/Body/BodyTop'
 import BodyBottom from '@/components/Body/BodyBottom'
 
 
+
+
 export default {
   name: 'App',
   components:{
@@ -21,6 +24,8 @@ export default {
     Navs:Navs,
     BodyTop:BodyTop,
     BodyBottom:BodyBottom,
+   
+   
   
   }
 }
@@ -34,5 +39,21 @@ export default {
   text-align: center;
   color: #2c3e50;
   margin-top: 60px;
+}
+#polar-chart {
+  width:230px;
+}
+#horizontalbar-chart{
+   width:230px;
+}
+#bar-chart{
+ height: 230px;
+
+}
+#line-chart{
+  width:230px;
+}
+#bubble-chart{
+    width:230px;
 }
 </style>
