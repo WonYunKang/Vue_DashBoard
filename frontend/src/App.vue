@@ -56,4 +56,8 @@ export default {
 #bubble-chart{
     width:230px;
 }
+.d2b-pie{
+  width: 100px;
+  height: 100px;
+}
 </style>

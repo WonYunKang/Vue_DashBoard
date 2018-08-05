@@ -1,13 +1,76 @@
 <template>
-    <div style="background-color:Red; height:100%; width: 100%">page1</div>
+    <div>
+
+        <div class="Menu">Menu
+
+        </div>
+
+        <div class="Welcome">
+
+
+            <div class="note">
+                <h3 >Welcome Amelia</h3>
+                <p>You have 42 messages and 6 notifications</p>
+
+            </div>
+
+            <div class="main_graph">
+                <MainGraph/>
+              
+            </div>
+            <div class="main_pie">
+                <p>Project Beta progress</p>
+               
+              <Pie/>
+            </div>
+
+        </div>
+
+    <div class="bottom">
+
+        <div class="report">
+
+        </div> 
+
+        <div class="feed">
+
+        </div>
+        <div class="alphaproject"> 
+
+        </div>
+
+    </div>
+
+           
+   
+    </div>
 </template>
 
 <script>
+import MainGraph from '@/components/page1Graph/MainGraph'
+import Pie from '@/components/page1Graph/Pie'
+
 export default {
-    name :"page1"
+    name :"page1",
+    components :{
+        MainGraph:MainGraph,
+        Pie:Pie
+    }
 }
 </script>
 
 <style scoped>
+    .Menu{width: 10%; height: 630px; background-color: #008000; float: left;}
+
+    .Welcome{width: 90%; height: 210px; background-color:peru; float: left;}
+
+    .note{width: 30%; height: 190px; background-color: palegreen; float: left;}
+    .main_graph{width:45%; height: 190px; background-color: orange;float: left; }
+    .main_pie{width: 25%; height: 190px; background-color: rosybrown; float: left;}
+
+    .bottom{width : 90%; height: 420px; background-color: skyblue; float: left;}
+    .report{width:30%; height: 420px; background-color:white; float: left; }
+    .feed{width :45%; height: 420px; background-color: cyan; float: left;}
+    .alphaproject{width: 25%; height: 420px; background-color: palevioletred; float: left;}
 
 </style>
