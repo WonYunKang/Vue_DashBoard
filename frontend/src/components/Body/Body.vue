@@ -5,13 +5,13 @@
         <div class="blank"></div>
             <div class="menu">
         <div class="menu_Top"></div> 
-                
           <div style="float: clear">  <h4>Menu</h4></div>
+                <br>
         
-                <P><router-link to="page1">Page1</router-link></P>
-                <P><router-link to="page2">Page2</router-link></P>
-                <P><router-link to="page3">Page3</router-link></P>
-                <P><router-link to="page4">Page4</router-link></P>
+                <P><router-link to="page1">Education</router-link></P>
+                <P><router-link to="page2">Development</router-link></P>
+                <P><router-link to="page3">Entership</router-link></P>
+                <P><router-link to="page4">Prosperity</router-link></P>
 
         </div>
         
