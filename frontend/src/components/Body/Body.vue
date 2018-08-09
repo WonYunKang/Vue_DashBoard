@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="Body_Set">
          
 
         <div class="blank"></div>
@@ -110,4 +110,5 @@ export default {
      .positionDiv_Top{float: left; height: 280px; width: 230px; margin: 3px; background-color: #FAEBD7; border-radius: 5px;}
 
     .menu{background-color:pink; width:15%; height:520px; float:left; margin-top:3px; margin-right: 3px;border-bottom-left-radius: 40px;border-Top-right-radius: 5px;border-Top-left-radius: 5px;border-bottom-right-radius: 5px}
+    .Body_Set{margin-top :60px;}
 </style>
